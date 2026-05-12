@@ -13,7 +13,7 @@ class TPQueue {
 
  public:
   TPQueue() : head(nullptr) {}
- 
+
   ~TPQueue() {
     while (head != nullptr) {
       Node* tmp = head;
